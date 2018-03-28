@@ -40,6 +40,7 @@ import com.yyquan.jzh.xmpp.XmppTool;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.security.MessageDigest;
 import java.util.HashMap;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
@@ -231,7 +232,27 @@ public class LoginActivity extends Activity implements View.OnClickListener, Pla
         tv_login.setEnabled(true);
         DialogView.dismiss();
     }
+    private String MD5(String s) {
+        try {
+            MessageDigest md = MessageDigest.getInstance("MD5");
+            byte[] bytes = md.digest(s.getBytes("utf-8"));
+            return toHex(bytes);
+        }
+        catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 
+    private static String toHex(byte[] bytes) {
+
+        final char[] HEX_DIGITS = "0123456789ABCDEF".toCharArray();
+        StringBuilder ret = new StringBuilder(bytes.length * 2);
+        for (int i=0; i<bytes.length; i++) {
+            ret.append(HEX_DIGITS[(bytes[i] >> 4) & 0x0f]);
+            ret.append(HEX_DIGITS[bytes[i] & 0x0f]);
+        }
+        return ret.toString();
+    }
     @Override
     public void onCancel(Platform platform, int i) {
         tv_login.setEnabled(true);
@@ -267,7 +288,7 @@ public class LoginActivity extends Activity implements View.OnClickListener, Pla
 
                         @Override
                         public void run() {
-                            boolean result = XmppTool.getInstance().login(users.getUser(), users.getPassword(), LoginActivity.this);
+                            boolean result = XmppTool.getInstance().login(users.getUser(), (users.getPassword()), LoginActivity.this);
                             if (result) {
 
                                 runOnUiThread(new Runnable() {

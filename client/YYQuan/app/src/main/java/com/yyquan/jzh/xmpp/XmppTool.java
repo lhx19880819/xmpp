@@ -19,6 +19,7 @@ import org.jivesoftware.smack.PacketCollector;
 import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.RosterGroup;
+import org.jivesoftware.smack.SASLAuthentication;
 import org.jivesoftware.smack.SmackConfiguration;
 import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
@@ -76,9 +77,10 @@ import java.util.Set;
 public class XmppTool {
     private String tag = "XmppTool";
     private static XmppTool instance;
-    public static final String HOST = "123.207.145.194";
+    public static final String HOST = "192.168.1.7";
     // public static final String HOST = "192.168.1.188";
     public static final int PORT = 5222;
+    public static String SERVER_NAME = "xingzheng";// 域
     private static XMPPConnection con;
     Context context;
 
@@ -91,11 +93,14 @@ public class XmppTool {
     }
 
     private XmppTool() {
-        configure(ProviderManager.getInstance());
-        ConnectionConfiguration connConfig = new ConnectionConfiguration(HOST, PORT);
-        connConfig.setSASLAuthenticationEnabled(false);
+//        configure(ProviderManager.getInstance());
+        ConnectionConfiguration connConfig = new ConnectionConfiguration(HOST, PORT, SERVER_NAME);
+        //设置断网重连 默认为true
         connConfig.setReconnectionAllowed(true);
-        connConfig.setSendPresence(false);
+        //设置登录状态 true-为在线
+        connConfig.setSendPresence(true);
+        //设置不需要SAS验证
+        connConfig.setSASLAuthenticationEnabled(true);
         // connConfig.setSecurityMode(ConnectionConfiguration.SecurityMode.enabled);
         // connConfig.setSendPresence(true);
         con = new XMPPConnection(connConfig);
@@ -112,9 +117,9 @@ public class XmppTool {
             }
             SmackConfiguration.setPacketReplyTimeout(30000);// 设置超时时间
             SmackConfiguration.setKeepAliveInterval(-1);
-            SmackConfiguration.setDefaultPingInterval(0);
+//            SmackConfiguration.setDefaultPingInterval(0);
             con.connect();
-
+            configureConnection();
             con.addConnectionListener(new ConnectionListener() {
 
                 @Override
@@ -191,7 +196,7 @@ public class XmppTool {
 
         try {
             this.context = context;
-            // SASLAuthentication.supportSASLMechanism("PLAIN", 0);
+//            SASLAuthentication.supportSASLMechanism("PLAIN", 0);
             con.login(name.toLowerCase(), pwd);
             // getMessage();//获取离线消息
             int status = SharedPreferencesUtil.getInt(context, "status", name + "status");
@@ -730,4 +735,118 @@ public class XmppTool {
                 new AdHocCommandDataProvider.SessionExpiredError());
     }
 
+    /**
+     * ASmack在/META-INF缺少一个smack.providers 文件，配置文件
+     * 不然会出现 空指针异常或者是ClassCastExceptions
+     */
+    private static void configureConnection() {
+        ProviderManager pm = ProviderManager.getInstance();
+        pm.addIQProvider("query", "jabber:iq:private",
+                new PrivateDataManager.PrivateDataIQProvider());
+        // Time
+        try {
+            pm.addIQProvider("query", "jabber:iq:time",
+                    Class.forName("org.jivesoftware.smackx.packet.Time"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        // Roster Exchange
+        pm.addExtensionProvider("x", "jabber:x:roster",
+                new RosterExchangeProvider());
+        // Message Events
+        pm.addExtensionProvider("x", "jabber:x:event",
+                new MessageEventProvider());
+        // Chat State
+        pm.addExtensionProvider("active",
+                "http://jabber.org/protocol/chatstates",
+                new ChatStateExtension.Provider());
+        pm.addExtensionProvider("composing",
+                "http://jabber.org/protocol/chatstates",
+                new ChatStateExtension.Provider());
+        pm.addExtensionProvider("paused",
+                "http://jabber.org/protocol/chatstates",
+                new ChatStateExtension.Provider());
+        pm.addExtensionProvider("inactive",
+                "http://jabber.org/protocol/chatstates",
+                new ChatStateExtension.Provider());
+        pm.addExtensionProvider("gone",
+                "http://jabber.org/protocol/chatstates",
+                new ChatStateExtension.Provider());
+        // XHTML
+        pm.addExtensionProvider("html", "http://jabber.org/protocol/xhtml-im",
+                new XHTMLExtensionProvider());
+        // Group Chat Invitations
+        pm.addExtensionProvider("x", "jabber:x:conference",
+                new GroupChatInvitation.Provider());
+        // Service Discovery # Items
+        pm.addIQProvider("query", "http://jabber.org/protocol/disco#items",
+                new DiscoverItemsProvider());
+        // Service Discovery # Info
+        pm.addIQProvider("query", "http://jabber.org/protocol/disco#info",
+                new DiscoverInfoProvider());
+        // Data Forms
+        pm.addExtensionProvider("x", "jabber:x:data", new DataFormProvider());
+        // MUC User
+        pm.addExtensionProvider("x", "http://jabber.org/protocol/muc#user",
+                new MUCUserProvider());
+        // MUC Admin
+        pm.addIQProvider("query", "http://jabber.org/protocol/muc#admin",
+                new MUCAdminProvider());
+        // MUC Owner
+        pm.addIQProvider("query", "http://jabber.org/protocol/muc#owner",
+                new MUCOwnerProvider());
+        // Delayed Delivery
+        pm.addExtensionProvider("x", "jabber:x:delay",
+                new DelayInformationProvider());
+        // Version
+        try {
+            pm.addIQProvider("query", "jabber:iq:version",
+                    Class.forName("org.jivesoftware.smackx.packet.Version"));
+        } catch (ClassNotFoundException e) {
+            // Not sure what's happening here.
+        }
+        // VCard
+        pm.addIQProvider("vCard", "vcard-temp", new VCardProvider());
+        // Offline Message Requests
+        pm.addIQProvider("offline", "http://jabber.org/protocol/offline",
+                new OfflineMessageRequest.Provider());
+        // Offline Message Indicator
+        pm.addExtensionProvider("offline",
+                "http://jabber.org/protocol/offline",
+                new OfflineMessageInfo.Provider());
+        // Last Activity
+        pm.addIQProvider("query", "jabber:iq:last", new LastActivity.Provider());
+        // User Search
+        pm.addIQProvider("query", "jabber:iq:search", new UserSearch.Provider());
+        // SharedGroupsInfo
+        pm.addIQProvider("sharedgroup",
+                "http://www.jivesoftware.org/protocol/sharedgroup",
+                new SharedGroupsInfo.Provider());
+        // JEP-33: Extended Stanza Addressing
+        pm.addExtensionProvider("addresses",
+                "http://jabber.org/protocol/address",
+                new MultipleAddressesProvider());
+        pm.addIQProvider("si", "http://jabber.org/protocol/si",
+                new StreamInitiationProvider());
+        pm.addIQProvider("query", "http://jabber.org/protocol/bytestreams",
+                new BytestreamsProvider());
+        pm.addIQProvider("query", "jabber:iq:privacy", new PrivacyProvider());
+        pm.addIQProvider("command", "http://jabber.org/protocol/commands",
+                new AdHocCommandDataProvider());
+        pm.addExtensionProvider("malformed-action",
+                "http://jabber.org/protocol/commands",
+                new AdHocCommandDataProvider.MalformedActionError());
+        pm.addExtensionProvider("bad-locale",
+                "http://jabber.org/protocol/commands",
+                new AdHocCommandDataProvider.BadLocaleError());
+        pm.addExtensionProvider("bad-payload",
+                "http://jabber.org/protocol/commands",
+                new AdHocCommandDataProvider.BadPayloadError());
+        pm.addExtensionProvider("bad-sessionid",
+                "http://jabber.org/protocol/commands",
+                new AdHocCommandDataProvider.BadSessionIDError());
+        pm.addExtensionProvider("session-expired",
+                "http://jabber.org/protocol/commands",
+                new AdHocCommandDataProvider.SessionExpiredError());
+    }
 }

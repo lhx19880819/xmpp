@@ -16,11 +16,6 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/smack.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/smackx.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/gson-2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Apache Software Foundation/Tomcat 6.0/lib/servlet-api.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="com.genuitec.runtime.library/com.genuitec.generic_1.4">
@@ -33,5 +28,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
