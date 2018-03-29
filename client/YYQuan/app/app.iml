@@ -136,8 +136,8 @@
     <orderEntry type="library" exported="" name="__local_aars__:J.\Git\xmpp\client\YYQuan\app\libs\ShareSDK-Core-2.6.3.jar:unspecified@jar" level="project" />
     <orderEntry type="library" exported="" name="com.squareup.picasso:picasso:2.5.2@jar" level="project" />
     <orderEntry type="library" exported="" name="__local_aars__:J.\Git\xmpp\client\YYQuan\app\libs\ShareSDK-QQ-2.6.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" exported="" name="com.loopj.android:android-async-http:1.4.9@jar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-annotations:23.0.1@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.loopj.android:android-async-http:1.4.9@jar" level="project" />
     <orderEntry type="library" exported="" name="com.pnikosis:materialish-progress-1.0" level="project" />
     <orderEntry type="module" module-name="multi-image-selector" exported="" />
   </component>

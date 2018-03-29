@@ -77,9 +77,9 @@ import java.util.Set;
 public class XmppTool {
     private String tag = "XmppTool";
     private static XmppTool instance;
-    public static final String HOST = "192.168.1.7";
+    public static final String HOST = "olduck.wicp.net";
     // public static final String HOST = "192.168.1.188";
-    public static final int PORT = 5222;
+    public static final int PORT = 24873;
     public static String SERVER_NAME = "xingzheng";// 域
     private static XMPPConnection con;
     Context context;

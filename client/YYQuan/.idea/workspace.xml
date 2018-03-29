@@ -42,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/activity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="286" column="34" lean-forward="false" selection-start-line="286" selection-start-column="34" selection-end-line="286" selection-end-column="34" />
+            <state relative-caret-position="4674">
+              <caret line="295" column="55" lean-forward="false" selection-start-line="295" selection-start-column="55" selection-end-line="295" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -66,13 +66,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XmppTool.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="XmppTool.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/xmpp/XmppTool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3800">
-              <caret line="202" column="35" lean-forward="false" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
+            <state relative-caret-position="228">
+              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6847#6848#0" expanded="true" />
+                <element signature="e#6873#6874#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,8 +83,8 @@
       <file leaf-file-name="Ip.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/Ip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -2649,10 +2651,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/Ip.java" />
         <option value="$PROJECT_DIR$/app/libs/asmack-android-6.jar!/org/jivesoftware/smack/XMPPConnection.class" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/xmpp/XmppTool.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/activity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/Ip.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/xmpp/XmppTool.java" />
       </list>
     </option>
   </component>
@@ -2677,7 +2679,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YYQuan" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2810,22 +2825,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YYQuan" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2921,7 +2923,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522258891030" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522291234538" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2969,7 +2971,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522258891030" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522291234538" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3131,7 +3133,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522258891031" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522291234539" />
       </method>
     </configuration>
     <list size="1">
@@ -3240,6 +3242,7 @@
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32972974" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.5120773" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -3251,7 +3254,7 @@
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.48933902" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3975501" sideWeight="0.5127932" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39675677" sideWeight="0.5127932" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.4879227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -3267,7 +3270,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.4914712" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -3406,6 +3408,8 @@
           <caret line="202" column="35" lean-forward="false" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6847#6848#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3444,6 +3448,88 @@
           <caret line="202" column="35" lean-forward="false" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6847#6848#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/Ip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/xmpp/XmppTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="202" column="35" lean-forward="false" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6847#6848#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/Ip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/activity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/xmpp/XmppTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="202" column="35" lean-forward="false" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6847#6848#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3482,6 +3568,8 @@
           <caret line="197" column="35" lean-forward="false" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6847#6848#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3543,14 +3631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/Ip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1387">
@@ -3563,21 +3643,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/xmpp/XmppTool.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/activity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3800">
-          <caret line="202" column="35" lean-forward="false" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="4674">
+          <caret line="295" column="55" lean-forward="false" selection-start-line="295" selection-start-column="55" selection-end-line="295" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/activity/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/entity/Ip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="286" column="34" lean-forward="false" selection-start-line="286" selection-start-column="34" selection-end-line="286" selection-end-column="34" />
+        <state relative-caret-position="171">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/yyquan/jzh/xmpp/XmppTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6847#6848#0" expanded="true" />
+            <element signature="e#6873#6874#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
