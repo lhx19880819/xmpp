@@ -3,6 +3,7 @@ package com.yyquan.jzh.activity;
 import android.app.Application;
 
 
+import com.mob.MobSDK;
 
 import java.util.concurrent.TimeUnit;
 
@@ -15,6 +16,6 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
+        MobSDK.init(this);
     }
 }

@@ -2,14 +2,9 @@ package com.yyquan.jzh.activity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.SharedPreferences;
-
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -18,11 +13,9 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
-
 import com.tencent.android.tpush.XGIOperateCallback;
 import com.tencent.android.tpush.XGPushManager;
 import com.yyquan.jzh.R;
@@ -36,14 +29,12 @@ import com.yyquan.jzh.view.DialogView;
 import com.yyquan.jzh.xmpp.XmppService;
 import com.yyquan.jzh.xmpp.XmppTool;
 
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.security.MessageDigest;
 import java.util.HashMap;
 
-import cn.pedant.SweetAlert.SweetAlertDialog;
 import cn.sharesdk.framework.Platform;
 import cn.sharesdk.framework.PlatformActionListener;
 import cn.sharesdk.framework.ShareSDK;
@@ -78,7 +69,6 @@ public class LoginActivity extends Activity implements View.OnClickListener, Pla
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_login);
-        ShareSDK.initSDK(this);
         lt = new Location(this);
 
 
@@ -158,8 +148,8 @@ public class LoginActivity extends Activity implements View.OnClickListener, Pla
      */
     private void weibo_login() {
         Platform weibo = ShareSDK.getPlatform(SinaWeibo.NAME);
-        if (weibo.isValid()) {
-            weibo.removeAccount();
+        if (weibo.isClientValid()) {
+            weibo.removeAccount(true);
         }
 
         weibo.setPlatformActionListener(this); // 设置分享事件回调
@@ -174,8 +164,8 @@ public class LoginActivity extends Activity implements View.OnClickListener, Pla
      */
     private void qq_login() {
         Platform weibo = ShareSDK.getPlatform(QQ.NAME);
-        if (weibo.isValid()) {
-            weibo.removeAccount();//删除前一次的授权信息
+        if (weibo.isClientValid()) {
+            weibo.removeAccount(true);//删除前一次的授权信息
         }
 
         weibo.setPlatformActionListener(this); // 设置分享事件回调

@@ -2,242 +2,256 @@
 <items version="2" >
 
     <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\ShareSDK-QQ-2.6.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="496e163b2b242a83885f065f193810611ada229a">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.6.3_e87fe87851e608c22f21449acbca6a7c27addbb1.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.1.4\c1d30c2bbdce435b775cadca57df2098044a0f5e\analytics-6.1.4.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c1d30c2bbdce435b775cadca57df2098044a0f5e">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\analytics-6.1.4_a0be504d8cc1063701dfd2af3b7838c0491b08c8.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\AMap_Search_v2.6.0_20150914.jar"
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\AMap_Search_v2.6.0_20150914.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1a1add372e0354b1a3e8614d742362491cb8c2f4">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\AMap_Search_v2.6.0_20150914_155c1ca71f94c81bdef7a6454601ad771211c486.jar" />
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\AMap_Search_v2.6.0_20150914_77d692ac1e20677826427ed87f226dfd796af2dd.jar" />
     </item>
     <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.melnykov-floatingactionbutton-1.3.0_123175edf8115f4bd82ee7f1ca65520df8760ca4.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\wup-1.0.0-SNAPSHOT.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a0845068801a0b9a3a144b7cf57cb650b3d467e5">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\wup-1.0.0-SNAPSHOT_5025cf0e4f40b4e90d66f5c92a4d84ab42d0072d.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.rockerhieu.emojicon\library\1.3.3\jars\classes.jar"
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.rockerhieu.emojicon\library\1.3.3\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="bcca57571c432c186f738fccb93e4ca5bc02aada">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.rockerhieu.emojicon-library-1.3.3_b16a2a7b03d043e23872f3ced75b6204e000f01a.jar" />
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.rockerhieu.emojicon-library-1.3.3_0a933d6a4f159377c2023d28c6d7018429d0e64b.jar" />
     </item>
     <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\Xg_sdk_v2.39_20150915_1121.jar"
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\ShareSDK-QQ-3.1.4.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="b1a16d54584c44f32d2492e25acab5f8d07772fb">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\Xg_sdk_v2.39_20150915_1121_64a39370031c9bfe62801ccb92d238ba08ee9118.jar" />
+        sha1="32055cb4c8f4ec81fde1dba1ad0275a19b09dfa1">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-3.1.4_183be05d2c64f5bd6c1d5b6d5687934695db6d13.jar" />
     </item>
     <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\ShareSDK-Core-2.6.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d072ff710fbddf800658d07d735ca3c5464ea04f">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.3_ce432c2885aee0d6f201a7a20c1d711ce1267043.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\YYQuan\multi-image-selector\unspecified\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="7e11d9e6cd6fed4a57b5014580981fc0212e226f">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\YYQuan-multi-image-selector-unspecified_6bb35758751b50031f31f8eb6a9e5b365b75ff11.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.demievil.library\refreshlayout\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="b98861ef86d1575672b61b5f58a59eede6119c97">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.demievil.library-refreshlayout-1.0.0_2cf2ff173519ed28c76a50158c5f01ebfef399f7.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\MobTools.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\MobTools_4ec68d38d5589bdfb9324991689c51a1335dda9b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_fc861cbde294a7e4a9efd57936d766cb077b60e2.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\library-2.4.0_dd460f45d27a359687729c3c169358b1eda3100b.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_8bf35ee2bba818564cbd6641d936c584519fade0.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_71dd87fbfa91aae3a682d250ffcea50179c77341.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\jg_filter_sdk_1.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ebfc3cde0309ff27e9568757784eefefc71407a2">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\jg_filter_sdk_1.1_dae0e6314c43ae8c1c9a1195d188b70f82bb9587.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-21.0.3_9df0b0f6b92dedecffafe660d0f60299f9a5c7c8.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\asmack-android-7.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="41786d823e61e19321bf39b9efe58e91d6df3bf7">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\asmack-android-7_8e746a4e9c97ba4276cd206983b47187b712d050.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_60507c7646f6783e18f31466b10a5d962f0c4902.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.pnikosis-materialish-progress-1.0_b33dc2be21849905d1c8d26d150719fb20876b07.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\mid-sdk-2.20.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0822bf00661a83ba2fab32214c70cc50a244a0a3">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\mid-sdk-2.20_79be852d0dabbae08338b6fa50a4277ab48e3082.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\AMap_Location_v1.4.1_20150917.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="07008f2806e509a55706771629c8767998b6fb98">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\AMap_Location_v1.4.1_20150917_d6a509df3ccb3a2d6aaee9089843bd197bfcca4b.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_4a9ae891538c1ac516a64395b89ab9b50826006e.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\ShareSDK-SinaWeibo-2.6.3.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="a080389406bbb3b21310f84df77d7391f355addc">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.3_d571b402cce8f67adcd4c8728605f278c8a8be25.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_84d4bd66f8cad624bcdcc86f55ed20f5517877c2.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\gson-2.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\gson-2.5_813dd291ec21b89c4dc30c8c4ab28f422e9b6888.jar" />
-    </item>
-    <item
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_2428dbd5eabf65ae69bc01abd6e4b72d08e545aa.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_ed1f2269c24d86dcb5b069a7f772618961dc3465.jar" />
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_23506c0664dee4624f568b3040dd2d99b8d41d1c.jar" />
     </item>
     <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\SMSSDK-1.3.1.jar"
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\MobCommons-2018.0322.1145.jar"
         jumboMode="false"
         revision="23.0.1"
-        sha1="0951da1e350144289581921fcc3570cc3aeac48a">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\SMSSDK-1.3.1_23e03943d573c8c453e4f2f4cae13e4db355f5f2.jar" />
+        sha1="95c5e2064c8d9fee3b1827d08c0fd636e471fbdc">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\MobCommons-2018.0322.1145_8ce3ae8cae54f2779010ba37ccf502bca62f4f47.jar" />
     </item>
     <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\AMap_3DMap_v2.6.0_20150914.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5723f613d0bd1fb0c0e7025f09e091f62aff02e8">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\AMap_3DMap_v2.6.0_20150914_8040bd30028861fcc030909680a207394abe30de.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\libs\MobLogCollector.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\MobLogCollector_66c26e712d99141bc807065206cfd7ff9bc0febb.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.commit451\PhotoView\1.2.4\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="890be6e1e56a883c9b407a11e067a61886dec123">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.commit451-PhotoView-1.2.4_e279f9114a2331d00ac77600022136110dd00844.jar" />
-    </item>
-    <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.1_f3524b6a1b61531c218c42ce2a4dc1bd7071054e.jar" />
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.1_45bae9a70a1f5929fa78fcd0359ecc8a29804fd1.jar" />
     </item>
     <item
-        jar="J:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\jars\classes.jar"
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_a734bb9f9e59d2d185f2b17b0b9cb18c77588267.jar" />
+    </item>
+    <item
+        jar="C:\Users\IGG\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_fc9e08beb2e82315b19860faada84d7cfcf8b517.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\YYQuan\multi-image-selector\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b115ee1e463b00e6a64c8baa7c5ecbada8f3f9c1">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\YYQuan-multi-image-selector-unspecified_dec52d090c91ab124b91bc9a6c08f16446c5ce4a.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\Xg_sdk_v2.39_20150915_1121.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b1a16d54584c44f32d2492e25acab5f8d07772fb">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\Xg_sdk_v2.39_20150915_1121_c392fd0d814cd9c6c1e7ca8aa60c92f8f6e3077d.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\AMap_Location_v1.4.1_20150917.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="07008f2806e509a55706771629c8767998b6fb98">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\AMap_Location_v1.4.1_20150917_f865ee6da34f7b77b30a07600359bd9c9fb3f7f7.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\ShareSDK-Core-3.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6fae30ffabeed33ca5821a409a7591968b9da050">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-3.1.4_4f141dafc44915c1ebf35a7ebf32efb9ad7fb0bf.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\gson-2.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="686c608d1805b6d4d425ec4459e88164ffc85870">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\gson-2.5_66e6ad5adddc4b22112f25c2db413ee6a646872d.jar" />
+    </item>
+    <item
+        jar="C:\Users\IGG\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1_47eae1b340732e8d971170e1135fa6081ee584c3.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.commit451\PhotoView\1.2.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="890be6e1e56a883c9b407a11e067a61886dec123">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.commit451-PhotoView-1.2.4_652e81256b74a8fc54b785a2ec4e345fb321287f.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.pnikosis\materialish-progress\1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57487745ce450899f9f250d5ae5c092a682cd041">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.pnikosis-materialish-progress-1.0_5b33766f484761b3520c59e7f5cd7aadc68078ae.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\SMSSDK-3.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05a9353b2076cd32ea52c0bf2f237826a8548329">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\SMSSDK-3.1.1_483848703434efac83c9db754d325fd25fc173b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\IGG\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_5af99d1d9ea310edb911a431444a8e23eb09b689.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_6d95cd030e7344123129742a1738214e630db198.jar" />
+    </item>
+    <item
+        jar="C:\Users\IGG\.gradle\caches\modules-2\files-2.1\com.umeng.analytics\analytics\6.1.4\c1d30c2bbdce435b775cadca57df2098044a0f5e\analytics-6.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c1d30c2bbdce435b775cadca57df2098044a0f5e">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\analytics-6.1.4_8af744140f86b35f0e2abe6ef30b2fe909bf9e6d.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\asmack-android-7.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="41786d823e61e19321bf39b9efe58e91d6df3bf7">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\asmack-android-7_ee6dcd436fe3cfa3f2cbefd6b5027d3d65f64444.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.demievil.library\refreshlayout\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b98861ef86d1575672b61b5f58a59eede6119c97">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.demievil.library-refreshlayout-1.0.0_dce5888a189154a661cd1bc7ce7e7c6f6124e05b.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\ShareSDK-SinaWeibo-3.1.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b3c70cfc2b30ce12b54c1b5b1a4346bf7dd8e453">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-3.1.4_ceef199cb819d636b3d10c18a49e4ecf1f7b61ac.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.melnykov-floatingactionbutton-1.3.0_72d5e9b5e01d19919bf8e8441b23dbfc81c56b28.jar" />
+    </item>
+    <item
+        jar="C:\Users\IGG\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\library-2.4.0_0fb11df61142eaa2bd8cd6f4bceac18d0d88d93e.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\SDKWrapper-2018.0201.1609.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01058045b6dc4bdee017560a29c4d46b236b9b76">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\SDKWrapper-2018.0201.1609_5458e9e9ecbeecf3bc51a7c6097f3488d53f7951.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\jg_filter_sdk_1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ebfc3cde0309ff27e9568757784eefefc71407a2">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\jg_filter_sdk_1.1_d8fa24ddc9f3ab4534894182af129815b5211cb1.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\MobTools-2018.0322.1147.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f05b9d853e4ae24a2895051ff80084faec82d8a0">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\MobTools-2018.0322.1147_4a6c2fd750701b58e61a273c5dd70ad794dd7949.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\cn.pedant.sweetalert\library\1.3\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="0c3529d9491be892952749d252ae1defa9b1f937">
-        <dex dex="J:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\cn.pedant.sweetalert-library-1.3_74d8172d27187aea7978c966db186bc6fc0a58cf.jar" />
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\cn.pedant.sweetalert-library-1.3_c843e7601aba2831d9a0b5a63e288d9574884398.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a0845068801a0b9a3a144b7cf57cb650b3d467e5">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\wup-1.0.0-SNAPSHOT_59978cafdece8e3b358b2f1f6bed51ce664145e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\IGG\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6_01c432463b5766f7234010f23d18ffeb465f86bb.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-21.0.3_65bf16060b9e54fc37b2ccf0c56f7c47d9835ea8.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\mid-sdk-2.20.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0822bf00661a83ba2fab32214c70cc50a244a0a3">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\mid-sdk-2.20_25022bdd8abbd97d837f2ffe887556aa931e4cbe.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\AMap_3DMap_v2.6.0_20150914.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5723f613d0bd1fb0c0e7025f09e091f62aff02e8">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\AMap_3DMap_v2.6.0_20150914_57493e94751d5bb0e8ded096f5fe9508daefc0a5.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9_f5f1a800aadc4a50287314f914010eaa102b8d2c.jar" />
+    </item>
+    <item
+        jar="F:\Git\xmpp\client\YYQuan\app\libs\MobLogCollector.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
+        <dex dex="F:\Git\xmpp\client\YYQuan\app\build\intermediates\pre-dexed\debug\MobLogCollector_7e5c56fc331e2f82f1e403d1665fa2d60fef6883.jar" />
     </item>
 
 </items>

@@ -134,8 +134,8 @@ public class AddFriendActivity extends BaseActivity implements AdapterView.OnIte
                 user.setCity("未知星球");
             }
             textView_city.setText(user.getCity());
-            if (user.getIcon().equals("")) {
-                if (user.getSex().equals("男")) {
+            if (user.getIcon() == null || user.getIcon().equals("")) {
+                if (user.getSex() != null && user.getSex().equals("男")) {
                     imageview_icon.setImageResource(R.mipmap.me_icon_man);
                 } else {
                     imageview_icon.setImageResource(R.mipmap.me_icon_woman);

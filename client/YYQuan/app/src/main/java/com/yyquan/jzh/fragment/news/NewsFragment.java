@@ -17,6 +17,7 @@ import com.yyquan.jzh.adapter.MainFragmentPagerAdapter;
 import com.yyquan.jzh.entity.Ip;
 import com.yyquan.jzh.entity.News_type;
 import com.yyquan.jzh.fragment.news.titleFragment;
+import com.yyquan.jzh.util.ToastUtil;
 import com.yyquan.jzh.view.DialogView;
 
 import org.json.JSONArray;
@@ -81,20 +82,23 @@ public class NewsFragment extends Fragment {
                                 list.add(news_type);
                             }
                             initialData();
+                        }else {
+                            ToastUtil.show(getContext(), object.getString("msg"));
+                            DialogView.dismiss();
                         }
 
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
                 } else {
-
+                    DialogView.dismiss();
                 }
 
             }
 
             @Override
             public void onFailure(int statusCode, Header[] headers, byte[] responseBody, Throwable error) {
-
+                DialogView.dismiss();
             }
         });
     }

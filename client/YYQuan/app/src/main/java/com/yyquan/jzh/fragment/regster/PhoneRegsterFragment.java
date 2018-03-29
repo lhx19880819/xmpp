@@ -1,7 +1,6 @@
 package com.yyquan.jzh.fragment.regster;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -17,7 +16,6 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
@@ -29,7 +27,6 @@ import com.yyquan.jzh.view.DialogView;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import cn.pedant.SweetAlert.SweetAlertDialog;
 import cn.smssdk.EventHandler;
 import cn.smssdk.SMSSDK;
 import cz.msebera.android.httpclient.Header;
@@ -162,19 +159,34 @@ public class PhoneRegsterFragment extends Fragment implements View.OnClickListen
      * 初始化短信sdk
      */
     private void iniSMSSDK() {
-
-        SMSSDK.initSDK(getActivity(), "add91b1ca379", "9c4250259e8bdabb1e52bf867ab17781", true);
+//        MobSDK.init(getActivity(), "24edd020208c2", "cdef8938c75359de694a0cec0de18e7c");
+//        SMSSDK.initSDK(getActivity(), "24edd020208c2", "cdef8938c75359de694a0cec0de18e7c", true);
+        SMSSDK.setAskPermisionOnReadContact(true);
         EventHandler eh = new EventHandler() {
 
             @Override
             public void afterEvent(int event, int result, Object data) {
+                if (data instanceof Throwable) {
+                    Throwable throwable = (Throwable)data;
+                    final String msg = throwable.getMessage();
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(getContext(), msg, Toast.LENGTH_SHORT).show();
+                        }
+                    });
+                } else {
+                    if (event == SMSSDK.EVENT_GET_VERIFICATION_CODE) {
+                        // 这里是验证成功的回调，可以处理验证成功后您自己的逻辑，需要注意的是这里不是主线程
 
-                Message m = new Message();
-                m.what = 2;
-                m.arg1 = event;
-                m.arg2 = result;
-                m.obj = data;
-                h.sendMessage(m);
+                        Message m = new Message();
+                        m.what = 2;
+                        m.arg1 = event;
+                        m.arg2 = result;
+                        m.obj = data;
+                        h.sendMessage(m);
+                    }
+                }
 
 
             }

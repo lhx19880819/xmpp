@@ -252,8 +252,8 @@ public class MessageFragment extends Fragment {
                         friendHolder.tv_ts.setText(list.get(position).getResult() + "");
                         break;
                 }
-                if (users.getIcon().equals("")) {
-                    if (users.getSex().equals("男")) {
+                if (users.getIcon() == null || users.getIcon().equals("")) {
+                    if (users.getSex() != null && users.getSex().equals("男")) {
                         friendHolder.iv.setImageResource(R.mipmap.me_icon_man);
                     } else {
                         friendHolder.iv.setImageResource(R.mipmap.me_icon_woman);
