@@ -160,6 +160,7 @@ public class PhoneRegsterFragment extends Fragment implements View.OnClickListen
      */
     private void iniSMSSDK() {
 //        MobSDK.init(getActivity(), "24edd020208c2", "cdef8938c75359de694a0cec0de18e7c");
+
 //        SMSSDK.initSDK(getActivity(), "24edd020208c2", "cdef8938c75359de694a0cec0de18e7c", true);
         SMSSDK.setAskPermisionOnReadContact(true);
         EventHandler eh = new EventHandler() {
@@ -176,16 +177,13 @@ public class PhoneRegsterFragment extends Fragment implements View.OnClickListen
                         }
                     });
                 } else {
-                    if (event == SMSSDK.EVENT_GET_VERIFICATION_CODE) {
-                        // 这里是验证成功的回调，可以处理验证成功后您自己的逻辑，需要注意的是这里不是主线程
 
-                        Message m = new Message();
-                        m.what = 2;
-                        m.arg1 = event;
-                        m.arg2 = result;
-                        m.obj = data;
-                        h.sendMessage(m);
-                    }
+                    Message m = new Message();
+                    m.what = 2;
+                    m.arg1 = event;
+                    m.arg2 = result;
+                    m.obj = data;
+                    h.sendMessage(m);
                 }
 
 
